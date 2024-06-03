@@ -6,6 +6,4 @@ EduBlockSpace is an initiative aimed at empowering underserved communities in Af
 
 Our mission is to bridge the knowledge gap and create opportunities for individuals in these communities to actively participate in the global digital economy.
 
----
 
-Feel free to use this version or adjust it further according to your preferences!
