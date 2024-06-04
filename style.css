@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comfortaa:wght@700&family=Montserrat:wght@700&family=Poppins:wght@300&display=swap');
+
+
 img{
     object-fit: cover;
 
@@ -22,6 +25,12 @@ color: white !important;;
 }
 
 /* Landing */
+.font{
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 1000;
+}
+
+
 .landing{
     object-fit: cover;
     background-image: url(./bg-img.jpg);
