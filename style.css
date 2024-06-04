@@ -4,8 +4,8 @@ body{
     padding: 0;
     height: 100%;
     width: 100%;
-    overflow: hidden;
     background-image: url(./bg-img.jpg);
+    color: white;
 
 }
 
@@ -24,6 +24,7 @@ img{
   
 }
 .nav{
+    position: sticky;
     background-color: rgb(32, 37, 80)!important;
 }
 .nav-pills{
@@ -48,12 +49,16 @@ color: white !important;;
     height: 100%;
 }
 
+/* About */
+#about{
+    background-color: rgb(32, 37, 80)!important;
 
-/* NEW CSS */
+}
+/* Courses */
+.card{
+    background-color: rgb(32, 37, 80)!important;
 
-/* Ensure the body and html have no margins and take up the full height */
-
-
+}
 
 
 
