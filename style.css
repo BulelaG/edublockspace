@@ -94,8 +94,14 @@ color: white !important;;
     margin: 0;
 }
 
-.ok{
-    background-image: url(./bg-img.jpg)!important; 
+
+#submit-opportunity{
+    height: 650px;
+    overflow-y: hidden!important;
+
+    
 }
-
-
+#submit-opportunity form {
+    
+border: 1px solid white !important;
+}
