@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comfortaa:wght@700&family=Montserrat:wght@700&family=Poppins:wght@300&display=swap');
-body{
+
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    overflow-y: auto
+}
+
+body{
+  
     height: 100%;
     width: 100%;
     background-image: url(./bg-img.jpg);
@@ -44,25 +51,48 @@ color: white !important;;
 
 .landing{
     object-fit: cover;
-    background-image: url(./bg-img.jpg);
+    /* background-image: url(./bg-img.jpg); */
     width: 100%;
-    height: 100%;
+    height: 600px;
 }
 
 /* About */
-#about{
-    background-color: rgb(32, 37, 80)!important;
 
-}
 /* Courses */
 .card{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);    object-fit: cover;
+}
+.card-body{
     background-color: rgb(32, 37, 80)!important;
+    object-fit: cover;
+}
+.card-img-top{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
 
 }
+/* Opportunities */
 
-
-
-
+.opportunity-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+.opportunity-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.opportunity-item h5 {
+    margin: 0;
+}
 
 
 

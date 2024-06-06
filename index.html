@@ -7,6 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/footers/">
+  <!-- opportunity-section-links -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
  </head>
 
  <body id="home"> 
@@ -14,13 +20,13 @@
    <nav class="nav bg-none ">
      <div class="container  py-3 d-flex">
        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-         <img class="logo-img" src="./EBS-banner-removebg-preview.png"  height="90" w>            <span class="fs-4"></span>
+         <img class="logo-img" src="./EBS-banner-removebg.png"  height="90" w>            <span class="fs-4"></span>
        </a>
        <ul class="bg-none font nav nav-pills">
          <li class="nav-item"><a href="#" class="nav-link bg-info" aria-current="page">Home</a></li>
          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-         <li class="nav-item"><a href="#quests" class="nav-link">Quests</a></li>
          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+         <li class="nav-item"><a href="#quests" class="nav-link">Opportunities</a></li>
          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
        </ul>
      </div>
@@ -42,16 +48,16 @@
         </div>
    </div>
  </div>
-
+<hr>  
   <!-- About -->
-  <div id="about" class="py-5 bg-light">
+  <div id="about" class="py-5 ">
     <div class="about-us container">
       <div class="row align-items-center">
         <div class="col-md-6">
-          <img src="about-image.jpg" alt="About Image" class="img-fluid">
+          <img src="./EBS_Ship-removebg-preview (2).png" alt="About Image" class="img-fluid">
         </div>
         <div class="col-md-6">
-          <h2 class="mb-3 text-white font">About Us</h2>
+          <h2 class="mb-3 text-white display-4 font">About Us</h2>
           <p>Edublockspace is an initiative/educational organization aimed at empowering underserved communities in South Africa through education on technology, mainly focusing on the Web & Blockchain development.</p>
           <p>Our mission is to provide high-quality education and resources to help individuals and communities build their skills and achieve their goals.</p>
           <a href="#" class="btn btn-primary">Learn More</a>
@@ -63,11 +69,11 @@
   <!-- Courses -->
   <div id="courses" class="py-5">
     <div class="container ">
-      <h2 class="mb-3 text-white font text-center">Our Courses</h2>
+      <h2 class="mb-3 text-white display-4 font text-center">Our Courses</h2>
       <div class="row">
         <div class="col-md-4">
           <div class="card text-white mb-4">
-            <img src="digital-literacy-image.jpg" alt="Digital Literacy" class="card-img-top">
+            <img src="./Digital Literacy.png" alt="Digital Literacy" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Digital Literacy</h5>
               <p class="card-text">Learn the basics of digital literacy, including computer basics, internet safety, and online communication.</p>
@@ -77,7 +83,7 @@
         </div>
         <div class="col-md-4">
           <div class="card text-white mb-4">
-            <img src="web2-development-image.jpg" alt="Web2 Development" class="card-img-top">
+            <img src="/Web2.png" alt="Web2 Development" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Web2 Development</h5>
               <p class="card-text">Learn the fundamentals of web development using HTML, CSS, and JavaScript.</p>
@@ -87,7 +93,7 @@
         </div>
         <div class="col-md-4">
           <div class="card text-white mb-4">
-            <img src="web3-blockchain-image.jpg" alt="Web3 & Blockchain" class="card-img-top">
+            <img src="./Web3&B.png" alt="Web3 & Blockchain" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Web3 & Blockchain</h5>
               <p class="card-text">Learn about decentralized applications (dApps) and blockchain technology.</p>
@@ -99,6 +105,139 @@
     </div>
   </div>
 </div>
+
+ <!-- Opportunities Section -->
+ <section id="opportunities" class="py-5">
+  <div class="container">
+      <h2 class="text-center font mb-4">Opportunities in Web2 & Web3/Blockchain</h2>
+      <div class="list-group">
+          <!-- Opportunity Item 1 -->
+          <div class="list-group-item opportunity-item" data-toggle="modal" data-target="#opportunityModal1">
+              <img src="path/to/image1.jpg" alt="Opportunity Image 1">
+              <div>
+                  <h5>Web2 Internship</h5>
+                  <p class="mb-0">Join a leading tech company as a Web2 intern and gain hands-on experience.</p>
+              </div>
+          </div>
+          <!-- Opportunity Item 2 -->
+          <div class="list-group-item opportunity-item" data-toggle="modal" data-target="#opportunityModal2">
+              <img src="path/to/image2.jpg" alt="Opportunity Image 2">
+              <div>
+                  <h5>Blockchain Developer Job</h5>
+                  <p class="mb-0">Become a blockchain developer at a cutting-edge tech firm.</p>
+              </div>
+          </div>
+          <!-- Opportunity Item 3 -->
+          <div class="list-group-item opportunity-item" data-toggle="modal" data-target="#opportunityModal3">
+              <img src="path/to/image3.jpg" alt="Opportunity Image 3">
+              <div>
+                  <h5>Hackathon Event</h5>
+                  <p class="mb-0">Participate in a Web3 hackathon and showcase your skills.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Opportunity Modals -->
+<!-- Modal 1 -->
+<div class="modal fade" id="opportunityModal1" tabindex="-1" aria-labelledby="opportunityModalLabel1" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="opportunityModalLabel1">Web2 Internship</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <p>Join a leading tech company as a Web2 intern and gain hands-on experience.</p>
+              <p>Details about the internship go here...</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-primary">Apply Now</a>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Modal 2 -->
+<div class="modal fade" id="opportunityModal2" tabindex="-1" aria-labelledby="opportunityModalLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="opportunityModalLabel2">Blockchain Developer Job</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <p>Become a blockchain developer at a cutting-edge tech firm.</p>
+              <p>Details about the job go here...</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-primary">Apply Now</a>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Modal 3 -->
+<div class="modal fade" id="opportunityModal3" tabindex="-1" aria-labelledby="opportunityModalLabel3" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="opportunityModalLabel3">Hackathon Event</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <p>Participate in a Web3 hackathon and showcase your skills.</p>
+              <p>Details about the hackathon go here...</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <a href="#" class="btn btn-primary">Join Now</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Submit Opportunity Form -->
+<section id="submit-opportunity" class="py-5 bg-light">
+  <div class="container">
+      <h2 class="text-center mb-4">Submit an Opportunity</h2>
+      <form>
+          <div class="form-group">
+              <label for="opportunityTitle">Opportunity Title</label>
+              <input type="text" class="form-control" id="opportunityTitle" placeholder="Enter the title">
+          </div>
+          <div class="form-group">
+              <label for="opportunityDescription">Description</label>
+              <textarea class="form-control" id="opportunityDescription" rows="3" placeholder="Enter the description"></textarea>
+          </div>
+          <div class="form-group">
+              <label for="opportunityLink">Link</label>
+              <input type="url" class="form-control" id="opportunityLink" placeholder="Enter the link">
+          </div>
+          <div class="form-group">
+              <label for="opportunityType">Type</label>
+              <select class="form-control" id="opportunityType">
+                  <option>Internship</option>
+                  <option>Job</option>
+                  <option>Hackathon</option>
+                  <option>Project</option>
+              </select>
+          </div>
+          <div class="form-group">
+              <label for="opportunityImage">Image</label>
+              <input type="file" class="form-control-file" id="opportunityImage">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Opportunity</button>
+      </form>
+  </div>
+</section>
 <!-- Team -->
 <div id="team"></div>
 <!-- Contact -->
@@ -110,16 +249,7 @@
 
     <footer class="py-5">
       <div class="row">
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
+      
   
   
         <div class="col-md-5 offset-md-1 mb-3">
