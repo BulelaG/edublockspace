@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comfortaa:wght@700&family=Montserrat:wght@700&family=Poppins:wght@300&display=swap');
 
 *{
-    margin: 0;
+    /* font-family: "Lato", sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.03cap;
+    font-style: normal;    margin: 0; */
     padding: 0;
     box-sizing: border-box;
     overflow-y: auto
@@ -11,15 +14,15 @@ body{
   
     height: 100%;
     width: 100%;
-    background-image: url(./bg-img.jpg);
+    background-image: url(./images/bg-img.jpg);
     color: white;
 
 }
 
 .font{
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Comfortaa', sans-serif !important;
     font-weight: 1000;
-}
+    }
 
 img{
     object-fit: cover;
@@ -31,10 +34,7 @@ img{
   
 }
 .nav{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;    
+    position:fixedx !important;
     background-color: rgb(32, 37, 80)!important;
 }
 .nav-pills{
@@ -56,7 +56,6 @@ color: white !important;;
     object-fit: cover;
     /* background-image: url(./bg-img.jpg); */
     width: 100%;
-    height: 500px;
 }
 
 /* About */
