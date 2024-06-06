@@ -31,7 +31,10 @@ img{
   
 }
 .nav{
-    position: sticky;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;    
     background-color: rgb(32, 37, 80)!important;
 }
 .nav-pills{
