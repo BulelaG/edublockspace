@@ -35,7 +35,7 @@ img{
 }
 .nav{
     position:fixedx !important;
-    background-color: rgb(32, 37, 80)!important;
+    background-color: rgb(42, 132, 187)!important;
 }
 .nav-pills{
 padding-top: 45px;
@@ -98,12 +98,13 @@ color: white !important;;
 
 
 #submit-opportunity{
-    height: 650px;
     overflow-y: hidden!important;
-
+padding: 0 200px 0 200px !important;
     
 }
 #submit-opportunity form {
     
+border-radius: 10px;
+
 border: 1px solid white !important;
 }
