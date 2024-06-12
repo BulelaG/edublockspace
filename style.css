@@ -67,7 +67,7 @@ color: white !important;;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);    object-fit: cover;
 }
 .card-body{
-    background-color: rgb(32, 37, 80)!important;
+    background-color: rgb(42, 132, 187)!important;
     object-fit: cover;
 }
 .card-img-top{
@@ -99,12 +99,23 @@ color: white !important;;
 
 #submit-opportunity{
     overflow-y: hidden!important;
-padding: 0 200px 0 200px !important;
     
 }
 #submit-opportunity form {
-    
-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: px solid white !important;
+    background-color: rgba(0, 68, 110, 0.515)!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-border: 1px solid white !important;
+#submit-opportunity input {
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
